@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(34, 80, 53);
+    color: white;
+}
+
+.parent{
+    width: 100%;
+}
+
+.class{
+    width: 40%;
+    float:left;
+    font-size: 30px;
+
+}
+
+img{
+    float: right;
+    width: 40%;
+    height: auto;
+}
+
+.h1{
+    font-size: 80px;
+}
