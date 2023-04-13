@@ -1,0 +1,44 @@
+body{ background-color: rgb(33, 77, 53);
+    color: aliceblue;
+}
+
+h1{
+    color: rgb(255, 255, 255); 
+    font-family: "YAEnXArs1iQ 0", _fb_, auto;
+     line-height: 77px;
+     font-size: 80px;
+}
+
+h3{
+    background-color: rgb(231, 179, 35);
+    border-radius: 5cm;
+    min-inline-size: 1%;
+    text-align: center;
+    width: fit-content;
+    color: black;
+
+}
+
+.parent{
+    width: 100%;
+    margin-left: 2%;
+ 
+
+}
+
+
+.one{
+    width: 60%;
+    float: left;
+    margin-top: 10%;
+
+
+}
+
+
+ .two{
+    width: 40%;
+    float:right;
+
+
+ }
