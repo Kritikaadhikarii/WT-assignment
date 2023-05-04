@@ -1,0 +1,83 @@
+.parent{
+    padding-inline: 0px;
+    margin: 0px;
+}
+
+
+
+.first{
+    width: 100%;
+    background-color: rgb(12,59,46);
+    height: auto;
+}   
+
+.i1{
+    max-width: 40%;
+    max-height: auto;
+    float: right;
+}
+
+.t1{
+    max-width: 40%;
+    max-height: auto;
+    float: left;
+}
+
+.second{
+    background-color: rgb(109,151,115);
+    width: 100%;
+    height: auto;
+}
+
+.third{
+    background-color: rgb(255,186,0);
+    width: 100%;
+    height: auto;
+}
+.grid{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 250px 250px 250px; /////250px is height, doesnt fully utilize all space, but fr utilizes all space//// */
+    grid-template-rows: 50px 50px;
+    grid-column-gap:10px;
+    grid-row-gap: 10px;
+    justify-content: center;
+}
+
+.fourth{
+    background-color: rgb(109,151,115);
+    width: 100%;
+    height: auto;
+
+}
+
+.fifth{
+    background-color: rgb(12,59,46);
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+
+#t5 .image{
+    width: 40%;
+    float: right;
+}
+
+h1{
+
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+button{
+    background-color: rgb(255,186,0);
+    border-radius: 5px;
+}
+
+
