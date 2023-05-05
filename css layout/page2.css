@@ -1,29 +1,29 @@
-body{
+.second {
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgb(109,151,115);
- margin: 5%;
-    color: white;
-}
-
-
-.parent{
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .s1, .s2 {
+    flex-basis: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .s2 {
+    text-align: right;
+  }
+  
+  .si {
     width: 100%;
-}
-
-.h{
-    width: 50%;
-    float: left;
-    font-size: 25px;
-}
-
-.p{
-    width: 50%;
-    float: right;
-    font-size: 25px;
-}
-
-img {
-    width:100%;
-    float: center;
-
-}
+    margin-top: 20px;
+  }
+  
+  .si img {
+    width: 100%;
+    height: auto;
+  }
+  
 

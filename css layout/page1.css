@@ -1,39 +1,34 @@
-body{ background-color: rgb(12,59,46);
-    color: aliceblue;
-}
+.first {
+    background-color: rgb(12,59,46);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
 
-h1{
-    color: rgb(255, 255, 255); 
-    font-family: "YAEnXArs1iQ 0", _fb_, auto;
-     line-height: 30px;
-     font-size: 30px;
-}
-
-h3{
-    background-color: rgb(255,186,0);
-    border-radius: 5cm;
-    min-inline-size: 1%;
-    text-align: center;
-    width: fit-content;
-    color: black;
-
-}
-
-.parent{
-    width: 100%;
- }
-
-
-.text{
+  }
+  
+  .t1 {
+    color: white;
     width: 50%;
-
-
-
+    margin: 50px ;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  .i1 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    order: 2;
+  }
+  
+  .i1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+button{
+    background-color: rgb(255,186,0);
+    border-radius: 50px ;
 }
-
-
-
-img1{
-    width: 40%;
-    float: right;
- }

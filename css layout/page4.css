@@ -1,48 +1,29 @@
-.fifth {
-    background-color: rgb(12,59,46);
+.fourth{
+    background-color: rgb(109, 151, 115);
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1200px;
-
   }
   
-  .t5 {
+  .t4 {
     color: white;
     width: 50%;
-    margin: 50px ;
+    margin: 50px;
     padding: 50px;
     box-sizing: border-box;
-  }
-  
-  .i5 {
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
     order: 2;
   }
   
-  .i5 img {
+  .i4 {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    order: 1;
+  }
+  
+  .i4 img {
     max-width: 100%;
     height: auto;
     display: block;
   }
-
-
-
-
-
-h1{
-
-    color: white;
-}
-
-p{
-    color: white;
-}
-
-button{
-    background-color: rgb(255,186,0);
-    border-radius: 5px;
-}
- 
